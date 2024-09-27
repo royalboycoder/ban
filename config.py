@@ -1,4 +1,9 @@
 import os
+from dotenv import load_dotenv
+
+if os.path.exists("Internal"):
+   load_dotenv("Internal")
+
 class Config:
     API_ID=
     API_HASH=""
